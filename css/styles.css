@@ -76,6 +76,7 @@ a {
   width: 65%;
 }
 
+
 /****** Populaires ***********/
 .populaires {
   width: 32%;
@@ -120,7 +121,34 @@ a {
 .populaires-cards .card-rating {
   margin-bottom: 5px;
 }
+#logo {
+  width: 95px;
+  height: 30px;
+}
+.search {
+  padding: 10px;
 
+}
+.search button {
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  
+}
+.search i {
+  color: black;
+}
+.button-filters {
+  width: fit-content;
+  font-size: 25px;
+  margin: 10px;
+}
+#economique{
+  margin: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 
 
