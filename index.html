@@ -12,16 +12,19 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/f9fe9182ac.js" crossorigin="anonymous"></script>
     <title>Booki</title>
 </head>
 
 <body>
     <div class="main-container">
         <header>
-            <img id="logo" src="./images/logo/Booki.png" alt="Booki's Logo">
-            <div class="nav">
-                <a href="#hebergements">Hebergements</a>
-                <a href="#activites">Activites</a>
+            <div class="top-container">
+                <img id="logo" src="./images/logo/Booki.png" alt="Booki's Logo">
+                <div class="nav">
+                   <a href="#hebergements">Hebergements</a>
+                   <a href="#activites">Activites</a>
+                </div>
             </div>
         </header>
         <main>
@@ -32,11 +35,22 @@
             <div class="search">
                 <form method="get">
                     <label>
-                      
+                      <i class="fa-solid fa-location-dot"></i>
                       <input id="city-name" type="text" placeholder="Paris,France" />
                     </label>
-                    <button>Rechercher</button>
+                    <button >Rechercher</button>
                   </form>
+            </div><h2>Filtres</h2>
+            <h2>Filtres</h2>
+            <div class="filtres">
+                <h2>Filtres</h2>
+                <div class="button-filters">
+                    <button id="economique"> <i class="fa-solid fa-money-bill-wave"></i>  Économique</button>
+                    <button ><i class="fa-solid fa-person"></i>  Familial</button>
+                    <button ><i class="fa-solid fa-heart"></i>  Romantique</button>
+                    <button ><i class="fa-solid fa-fire"></i>  Nos Pépites</button>
+                </div>
+                <p><i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
