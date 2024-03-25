@@ -302,10 +302,17 @@ navigator a{
 
 .activites-cards img {
   width: 240px;
-  height:  360px;
+  height:  340px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
+}
+.activites-cards .card-content {
+  height: 60px;
+}
+.activites-cards .card-title {
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 
@@ -317,20 +324,19 @@ navigator a{
 
 .footer-items {
   width: 33%;
-  padding: 1rem;
+  justify-content: start;
 }
 
 .footer-items h3 {
-  font-size: 1.8rem;
   padding-left: 1.5rem;
 }
 
 .footer-items ul li {
-  padding: 1rem 1rem 0;
+  padding: 1rem 1rem 0 1.5rem;
 }
 .footer-nav {
   display: flex;
-  justify-items: space-between;
+  justify-content: space-between;
   background-color: #d9d9d9;
   margin-top: 60px;
 }
