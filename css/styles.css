@@ -34,10 +34,130 @@ a {
   text-decoration: none;
 }
 
+/*top container header*/
+#logo {
+  width: 95px;
+  height: 30px;
+  margin: 10px;
+}
+navigator a{
+  padding:  0 30px 0;
+  width: auto;
+}
+.nav-bar{
+  width: auto;
+}
+.nav-bar {
+  display:flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav-bar li {
+    margin: 0 10px 20px;
+    line-height: 0.8;
+}
+
+.nav-bar :hover{
+  text-decoration: overline 2px 
+  solid var(--main-color);
+  color: var(--main-color);
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+.headline {
+  line-height: 0.8;
+  margin-bottom: 40px;
+}
+.headline-footer {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/*main search*/
+
+.search button {
+  background-color: #0065FC;
+  color: white;
+  padding: 0;
+  border-radius: 0 1.5rem 1.5rem 0;
+  outline: none;
+  padding: 1.2rem;
+  font-weight: 700;
+  font-size: 1.4em;
+  border: 1px solid #f2f2f2;
+}
+.search i {
+  background-color: #F2F2F2;
+  border-radius: 1.5rem 0 0 1.5rem;
+  justify-content: center;
+  outline: none;
+  padding: 1.3rem;
+  color: black;
+  font-size: 1.4em;
+  font-weight: 700;
+  border: 1px solid #f2f2f2;
+}
+ .search-bar {
+  display: flex;
+ }
+ .search-city input {
+    width: 15rem;
+    border: 1px solid #f2f2f2;
+    font-weight: 700;
+    font-size: 1.4em;
+    padding: 1.2rem;
+    outline: none;
+}
+
+.search-city input::placeholder {
+    color: black;
+
+}
+
+
+  /*main filters*/
+  .filters-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+ .filter {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    border: 2px solid #d9d9d9;
+    border-radius: 4rem;
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+.filter:hover {
+    background-color: #deebff;
+    transition: var(--transi200);
+}
+.filter i {
+  margin-right: 1rem;
+}
+.filtres-bar p {
+  margin: 40px 0;
+}
+.filter-footer i {
+  margin-right: 20px;
+}
+
+/* Cards*/
 .section-title {
   margin: 0;
   font-size: 22px;
 }
+
 
 .card {
   background-color: white;
@@ -175,109 +295,45 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .activites {
   margin: 20px;
 }
 
 .activites-cards img {
   width: 240px;
-  height:  380px;
+  height:  360px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
 }
 
 
-/*top container header*/
-#logo {
-  width: 95px;
-  height: 30px;
-  margin: 10px;
-}
-navigator a{
-  padding:  0 30px 0;
-  width: auto;
-}
-.nav-bar{
-  width: auto;
-}
-.nav-bar {
-  display:flex;
+/*footer*/
+.footer-items ul {
   list-style: none;
-  justify-content: space-between;
-}
-.nav-bar li {
-    margin: 0 10px 20px;
-}
-
-.nav-bar :hover{
-  text-decoration: overline 2px 
-  solid var(--main-color);
-  color: var(--main-color);
-}
-.top-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0;
-}
-
-
-/*main search*/
-#location-button {
-  justify-content: center;
-  padding: 4px;
-  background-color: #F2F2F2;
-}
-.search button {
-  background-color: #0065FC;
-  color: white;
   padding: 0;
 }
-.search i {
-  color: black;
+
+.footer-items {
+  width: 33%;
+  padding: 1rem;
 }
-.search {
+
+.footer-items h3 {
+  font-size: 1.8rem;
+  padding-left: 1.5rem;
+}
+
+.footer-items ul li {
+  padding: 1rem 1rem 0;
+}
+.footer-nav {
   display: flex;
-  align-items: center;
-  margin: 30px 0;
-  }
-
-  /*main filters*/
-  .filters-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
- .filter {
-    display: flex;
-    height: 3rem;
-    align-items: center;
-    border: 2px solid #d9d9d9;
-    border-radius: 4rem;
-    padding: 0 1.5rem;
-    cursor: pointer;
-}
-
-.filter:hover {
-    background-color: #deebff;
-    transition: var(--transi200);
-}
-.filter i {
-  margin-right: 1rem;
-}
-.filtres-bar p {
-  margin: 40px 0;
-}
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 40px 0;
+  justify-items: space-between;
   background-color: #d9d9d9;
+  margin-top: 60px;
 }
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

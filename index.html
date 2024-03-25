@@ -22,7 +22,7 @@
             <div class="top-container">
                 <img id="logo" src="./images/logo/Booki.png" alt="Booki's Logo">
                 <nav>
-                    <div class="nav">
+                    <div class="navigator">
                             <ul class="nav-bar">
                                 <li><a href="#hebergements">Hébergements</a></li>
                                 <li><a href="#activites">Activités</a></li>
@@ -34,20 +34,22 @@
         <main>
              <!-- Search-->
             <section class="propose-search">
-                <div class="propose">
+                <div class="headline">
                     <h2>Trouvez votre hébergement de vos vacances de rêve</h2>
                     <p>En pleine centre-ville ou en pleine nature</p>
                 </div>
                 <div class="search">
-                    <div class="location-button">
-                        <i  id="location-button" class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <form method="get">
+                    <form class="search-bar" action="#" method="GET">
+                        <div class="location-button">
+                             <i  id="location-button" class="fa-solid fa-location-dot"></i>
+                        </div>
                         <div class="search-city">
-                            <input type="text" placeholder="Marseille,France" aria-label="saisie" title="tapez la recherche">
+                            <input  type="text" placeholder="Marseille,France"  title="tapez la recherche">
+                        </div>
+                        <div class="button-search">
+                            <button >Rechercher</button>
                         </div>
                     </form>
-                    <button >Rechercher</button>
                 </div>
                  <!-- Search filters-->
                 <div class="filtres-bar">
@@ -55,22 +57,24 @@
                      <div class="filters-container">
                         <div class="filter">
                             <i class="fa-solid fa-money-bill-wave"></i>
-                            <p title="Économique">Économique</p>
+                            <h3 title="Économique">Économique</h3>
                         </div>
                         <div class="filter">
                             <i class="fa-solid fa-person"></i>
-                            <p title="Familial">Familial</p>
+                            <h3 title="Familial">Familial</h3>
                         </div>
                         <div class="filter">
                             <i class="fa-solid fa-heart"></i>
-                            <p title="Romantique">Romantique</p>
+                            <h3 title="Romantique">Romantique</h3>
                         </div>
                         <div class="filter">
                             <i class="fa-solid fa-fire"></i>
-                            <p title="Nos Pepites">Nos p&#233;pites</p>
+                            <h3 title="Nos Pepites">Nos p&#233;pites</h3>
                         </div>
-                    </div>
-                    <p><i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+                     </div>
+                     <div class="filter-footer">
+                         <p><i class="fa-solid fa-circle-info"></i>    Plus de 500 logements sont disponibles dans cette ville</p>
+                     </div>
                 </div>
             </section>
             <div class="hebergements-and-populaires">
@@ -284,7 +288,7 @@
                             <article class="card">
                                  <img src="./images/activites/reno-laithienne.jpg" alt="Image du vieux port" >
                                  <div class="card-content">
-                                      <p class="card-title">Vieux-Port</span></p>
+                                      <h2 class="card-title">Vieux-Port</h2>
                                  </div>
                              </article>
                         </a>
@@ -293,7 +297,7 @@
                             <article class="card">
                                  <img src="./images/activites/paul-hermann.jpg" alt="Image du fort de Pomègues" >
                                  <div class="card-content">
-                                      <p class="card-title">Fort de Pomègues </span></p>
+                                      <h2 class="card-title">Fort de Pomègues </h2>
                                  </div>
                              </article>
                         </a>
@@ -302,7 +306,7 @@
                             <article class="card">
                                  <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du parc national des calaques" >
                                  <div class="card-content">
-                                      <p class="card-title">Parc national des Calanques</p>
+                                      <h2 class="card-title">Parc national des Calanques</h2>
                                  </div>
                              </article>
                         </a>
@@ -311,7 +315,7 @@
                             <article class="card">
                                  <img src="./images/activites/florian-wehde.jpg" alt="Image de la Notre dame de la Garde" >
                                  <div class="card-content">
-                                      <p class="card-title"> Notre-Dame-dela-Garde</span></p>
+                                      <h2 class="card-title"> Notre-Dame-dela-Garde</h2>
                                  </div>
                              </article>
                         </a>
@@ -321,22 +325,28 @@
         </main>
         <!-- Footer-->
         <footer>
-            <div class="footer">
-                <div class="a-propos">
+            <div class="footer-nav">
+                <div class="footer-items">
                     <h3>À propos</h3>
-                    <p>Fonctionnement du site</p>
-                    <p>Conditions générales</p>
-                    <p>Données et confidentialité</p>
+                    <ul>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
                 </div>
-                <div class="nos-hebergements">
+                <div class="footer-items">
                     <h3>Nos hébergements</h3>
-                    <p>Charte qualité</p>
-                    <p>Proposer votre hôtel </p>
+                    <ul>
+                        <li>Charte qualité</li>
+                        <li>Proposer votre hôtel </li>
+                    <ul>
                 </div>
-                <div class="assistance">
+                <div class="footer-items">
                     <h3>Assistance</h3>
-                    <p>Centre d'aide</p>
-                    <p>Nous contacter</p> 
+                    <ul>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li> 
+                    <ul>
                 </div>
             </div>
         </footer>
