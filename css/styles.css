@@ -126,6 +126,7 @@ navigator a{
     display: flex;
     justify-content: space-between;
     width: 80%;
+    align-items: center;
 }
 
  .filter {
@@ -136,6 +137,7 @@ navigator a{
     border-radius: 4rem;
     padding: 0 1.5rem;
     cursor: pointer;
+    margin: 30px 0 0;
 }
 
 .filter:hover {
@@ -297,22 +299,25 @@ navigator a{
 }
 
 .activites {
-  margin: 20px;
+  margin: 10px;
 }
 
 .activites-cards img {
   width: 240px;
-  height:  340px;
+  height:  320px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   object-fit: cover;
 }
 .activites-cards .card-content {
-  height: 60px;
+  height: 40px;
 }
 .activites-cards .card-title {
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 20px; 
+}
+.activites-cards .card {
+  padding: 0;
 }
 
 
