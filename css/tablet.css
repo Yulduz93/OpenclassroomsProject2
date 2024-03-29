@@ -1,0 +1,13 @@
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+
+* {
+    margin: 0;
+}
+
+body {
+    max-width: 1024px;
+}
+
+}
+  
