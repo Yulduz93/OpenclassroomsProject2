@@ -1,6 +1,5 @@
 /* Small devices (phones, less than 768px) */
-@media (min-width: 320px) and (max-width: 767.98px) {
-
+@media (min-width: 320px)and (max-width: 767.98px) {
     /* General */
     
     * {
@@ -43,24 +42,21 @@
     /* Search */
     .search-icon {
         width: 5rem;
-        display: inline-block;
-        border-radius: 1.5rem;
+        display: block;
     }
 
     .search-icon i {
         font-size: 1.7rem;
     }
 
-    .search {
+    .button-search {
         display: none;
     }
     .filter h3 {
         font-size: 1.6rem;
     }
-    .headline {
-        justify-items: center;
-    }
 
 
 
 
+  }

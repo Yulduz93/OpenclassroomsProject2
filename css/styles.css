@@ -142,11 +142,10 @@ a {
 
 
   /*main filters*/
-  .filters-bar {
-    align-items: center;
-  }
+
   .filters-container {
     display: flex;
+    flex-direction: row;
     width: 85%;
     align-items: center;
  }
