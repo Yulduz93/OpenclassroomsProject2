@@ -1,4 +1,66 @@
 /* Small devices (phones, less than 768px) */
-@media screen and (max-width: 767.98px) {
-    /* ... */
-  }
+@media (min-width: 320px) and (max-width: 767.98px) {
+
+    /* General */
+    
+    * {
+        margin: 0;
+    }
+
+
+
+    body {
+        max-width: 767.98px;
+    }
+    .main-container {
+        padding: 10px;
+    }
+
+    html {
+        font-size: clamp(8px, 3vw, 10px);
+    }
+
+    h1 {
+
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    p,
+    a {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .footer h3 {
+        font-size: 1.8rem;
+    }
+
+
+    /* Search */
+    .search-icon {
+        width: 5rem;
+        display: inline-block;
+        border-radius: 1.5rem;
+    }
+
+    .search-icon i {
+        font-size: 1.7rem;
+    }
+
+    .search {
+        display: none;
+    }
+    .filter h3 {
+        font-size: 1.6rem;
+    }
+    .headline {
+        justify-items: center;
+    }
+
+
+
+

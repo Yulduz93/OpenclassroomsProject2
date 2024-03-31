@@ -24,6 +24,8 @@ body {
   font-family: "Raleway", "sans serif";
   font-weight: 700;
   margin: 0 auto;
+  font-weight: normal;
+
 }
 
 
@@ -140,13 +142,18 @@ a {
 
 
   /*main filters*/
+  .filters-bar {
+    align-items: center;
+  }
   .filters-container {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    width: 85%;
     align-items: center;
-}
+ }
 
+ .filters-container h2 {
+  margin: 30px 10px 0 0;
+ }
  .filter {
     display: flex;
     height: 3rem;
@@ -155,9 +162,14 @@ a {
     border-radius: 4rem;
     padding: 0 1.5rem;
     cursor: pointer;
-    margin: 30px 0 0;
+    margin: 30px 10px 0;
 }
+.filters-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
 
+}
 .filter:hover {
     background-color: #deebff;
     transition: var(--transi200);
@@ -323,7 +335,8 @@ a {
 }
 
 .activites {
-  margin: 10px;
+  margin: 50px 10px 10px;
+
 }
 
 .activites-cards img {
@@ -367,7 +380,6 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #d9d9d9;
-  margin-top: 60px;
+   margin-top: 60px;
 }
-
 
