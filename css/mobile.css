@@ -1,5 +1,6 @@
 /* Small devices (phones, less than 768px) */
-@media screen and (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
+
     /* General */
     
     * {
@@ -63,4 +64,3 @@
 
 
 
-  }
