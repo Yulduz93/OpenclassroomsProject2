@@ -6,13 +6,9 @@
         margin: 0;
     }
 
-    .top-container {
-        display: flex;
-        flex-direction: column;
-    }
-
     body {
         max-width: 767.98px;
+        margin: 0 1rem;
     }
     .main-container {
         padding: 10px;
@@ -22,18 +18,18 @@
         font-size: clamp(8px, 3vw, 10px);
     }
 
-    h1 {
+    h2 {
 
         font-size: 2.2rem;
     }
 
     h3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     p,
     a {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 500;
     }
 
@@ -41,17 +37,57 @@
         font-size: 1.8rem;
     }
 
+    .top-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navigator {
+        margin-top: 1 rem;
+    }
+    .headline {
+        justify-content: center;
+    }
+    .headline h2 {
+        margin: 2rem 0;
+    }
+    /* Filters */
+    .filters-container {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .filters-container .filter {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .filters-container h2 {
+     padding-left:10px; 
+     padding-top: 20px;
+    }
+ 
+    .filters-box {
+     width: 100%;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+    }
 
     /* Search */
+    .search-bar {
+        height: 5rem;
+    }
     .search-icon {
-        width: 5rem;
-        display: block;
-    }
-
-    .search-icon i {
-        font-size: 1.7rem;
-    }
-
+        cursor: pointer;
+        display: unset;
+        border-radius: 1.5rem;
+      }
+      .fa-magnifying-glass {
+        color: #ffffff;
+        border-radius: 1.5rem;
+      }
+      .search button {
+        border-radius: 1.5rem;
+      }
     .button-search {
         display: none;
     }
