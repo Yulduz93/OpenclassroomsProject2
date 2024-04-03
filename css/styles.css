@@ -61,8 +61,7 @@ a {
   border-top: 2px transparent;
 }
 .nav-bar li:hover {
-  border-top: 2px solid;
-  solid: var(--main-color);
+  border-top: 2px solid; 
   color: var(--main-color);
 }
 
