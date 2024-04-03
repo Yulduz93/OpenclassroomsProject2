@@ -1,5 +1,5 @@
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (min-width: 767.98px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     * {
        margin: 0;
        font-family: "Raleway", "sans serif";
@@ -79,15 +79,15 @@
     margin: 20px;
    }
    .activites-cards .card {
-    width: 12rem;
+    width: 11.5rem;
 
    }
    .activites-cards img {
-     width: 12rem;
-     height: 260px;
+     width: 11.5rem;
+     height: 250px;
    } 
    .activites-cards .card-title {
-      font-size: 14px;
+      font-size: 15px;
       margin: 20px 10px;
       padding: 0;
       justify-content: center;
