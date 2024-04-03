@@ -126,6 +126,7 @@ a {
     font-size: 1.4em;
     padding: 1.2rem;
     outline: none;
+    color: black;
 }
 
 .search-city input::placeholder {
