@@ -49,15 +49,16 @@
    }
  
    #hebergements {
-      width: 90%;
+      width: 100%;
    }
    .hebergements-footer {
     margin-top: 15px;
    }
    .hebergements-cards img {
-    width: 185px;
+    width : 100%;
    }
    .hebergements-cards a {
+    width: 30%;
    }
 
    .populaires {
