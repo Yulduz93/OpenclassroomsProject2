@@ -216,6 +216,9 @@
         width: 100%;
         flex-direction: column;
     }
+    .hebergements-cards a {
+        width: 100%;
+    }
     .hebergements-footer {
         margin-top: 15px;
     }
