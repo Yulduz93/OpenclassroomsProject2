@@ -51,9 +51,7 @@ a {
   justify-content: space-between;
   margin: 0;
 }
-.nav-bar {
-  margin: 0;
-}
+
 .nav-bar li {
   margin:  0 10px 20px;
   padding-top: 20px;
@@ -95,7 +93,6 @@ a {
 .search button {
   background-color: #0065FC;
   color: white;
-  padding: 0;
   border-radius: 0 1.5rem 1.5rem 0;
   outline: none;
   padding: 1.2rem;
