@@ -9,11 +9,11 @@
     body {
         max-width: 767.98px;
         min-width: 320px;
-        margin: 0 0.5rem;
+        margin: 0;
     }
     .main-container {
         padding: 0;
-        margin: 0 10px;
+        margin: 0;
     }
 
     html {
@@ -119,9 +119,11 @@
         width: 100%;
         height: 6rem;
         font-size: 2.4rem;
-        padding: 0 2.5rem 1rem;
-        box-sizing: content-box;
+        padding: 0 8rem 1rem 6rem;
 
+    }
+    #search {
+        width: 100%;
     }
 
     .search {
@@ -129,8 +131,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .search-bar {
@@ -177,26 +177,38 @@
       }
     .filter {
         margin: 10px 10px;
-        width: 40%;
+        width: 35%;
         justify-content: center;
+        height: 4rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .filter i {
+        font-size: 2rem;
     }
     .filter h3 {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
     .filters-box {
         width: 100%;
         justify-content: space-evenly;
        }
+    .filtres-bar {
+      margin-left: 20px;
+    }
     .hebergements-and-populaires {
         flex-direction: column-reverse;
         justify-content: center;
     }
     .hebergements-and-populaires section {
         width: 100%;
+        border-radius: 0;
+        margin: 0;
     }
     #hebergements {
         width: 100%;
        margin-top: 50px;
+       background-color: white;
     }
   
     .populaires {
@@ -204,6 +216,7 @@
         flex-direction: column;
         align-items: center;
     }
+  
     .hebergements-cards .card {
         width: 100%;
         justify-content: center;
@@ -220,7 +233,8 @@
         width: 100%;
     }
     .hebergements-footer {
-        margin-top: 15px;
+        margin-top: 20px;
+        font-size: 2rem;
     }
     .populaires-title {
         width: 100%;
@@ -235,20 +249,28 @@
     }
    
     #activites {
-        width: 100%;
+        width: 92%; 
+        margin-left: 30px;   
     }
     .activites-cards {
         flex-direction: column;
         width: 100%;
     }
+    .activites-cards a {
+        width: 100%;
+    }
+    
     .activites-cards .card {
         width: 100%;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .activites-cards img {
         width: 100%;
         height: 200px;
+    }
+    .activites-cards .card-title {
+        font-size: 2.2rem;
     }
 
     .footer {
