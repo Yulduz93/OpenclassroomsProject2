@@ -116,6 +116,9 @@ a {
  .search-bar {
   display: flex;
  }
+ form .search-bar {
+   width: 100%;
+ }
  .search-city input {
     width: 15rem;
     border: 1px solid #f2f2f2;

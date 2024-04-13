@@ -114,52 +114,51 @@
     .purpose-search{
         width: 100%;
         justify-items: center;
+        margin-left: 30px;
     }
     .search-city input {
-        width: 100%;
+        width: 90%;
         height: 6rem;
-        font-size: 2.4rem;
-        padding: 0 8rem 1rem 6rem;
-
+        font-size: 2rem;
+        padding: 0 4rem 1rem 2rem;
+        margin: 0 8rem 0 0;
+        display: inline-block;
+        border-radius: 0 1.5rem 1.5rem 0;
     }
-    #search {
-        width: 100%;
+    .search-bar {
+        height: 7rem;
+        width: 90%;
+        justify-content: center;
     }
 
     .search {
-        width: 100%;
+        width: 90%;
         display: flex;
-        align-items: center;
         justify-content: center;
     }
-
-    .search-bar {
-        margin: 0 2rem;
-        height: 7rem;
-        width: 100%;
-        justify-content: center;
-    }
-
     .search-icon {
         width: 4rem;
-        display: inline-block;
         border-radius: 1.5rem;
+        display: inline-block;
     }
     .search button {
         width: fit-content;
         justify-content: center;
-        padding: 0;
-        border-radius: 1.5rem;
+        padding: 0 0.5rem;
+        border-radius: 1.5rem ;
         height: 7rem;
         border: 1px solid #0065FC;
+    
     }
     .search-icon i {
-       font-size: 3rem;
+       font-size: 2.4rem;
        border-radius: 1.5rem;
        justify-content: center;
        background-color: #0065FC;
        border: 1px solid #0065FC;
        color: #ffffff;
+       width: fit-content;
+    
     }
     .location-button i {
         font-size: 3rem;
